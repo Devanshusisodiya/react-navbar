@@ -1,6 +1,6 @@
 import React from 'react'
 import './Body.css'
-import logo from '../../assets/logo1.png'
+import logo from '../../../../assets/logo1.png'
 
 function Body() {
     return (
