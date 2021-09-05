@@ -1,0 +1,14 @@
+
+
+.footer {
+    background-color: #232629;
+    padding: 20px;
+    color: white;
+}
+
+.foot-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
