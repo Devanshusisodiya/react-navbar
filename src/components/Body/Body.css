@@ -11,15 +11,15 @@
     background-attachment: fixed;
 }
 .pimg1 {
-    background-image: url('../../assets/wall46.png');
+    background-image: url('../../../../assets/wall46.png');
     min-height: 600px;
 }
 .pimg2 {
-    background-image: url('../../assets/wall38.png');
+    background-image: url('../../../../assets/wall38.png');
     min-height: 400px;
 }
 .pimg3 {
-    background-image: url('../../assets/wall41.jpg');
+    background-image: url('../../../../assets/wall41.jpg');
     min-height: 400px;
 }
 
