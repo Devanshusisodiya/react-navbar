@@ -11,15 +11,15 @@
     background-attachment: fixed;
 }
 .pimg1 {
-    background-image: url('../../../../assets/wall46.png');
+    background-image: url('../assets/f1.jpg');
     min-height: 600px;
 }
 .pimg2 {
-    background-image: url('../../../../assets/wall38.png');
+    background-image: url('../assets/f2.jpg');
     min-height: 400px;
 }
 .pimg3 {
-    background-image: url('../../../../assets/wall41.jpg');
+    background-image: url('../assets/f3.jpg');
     min-height: 400px;
 }
 
@@ -28,7 +28,7 @@
 
 .td {
     height: 100vh;
-    background-image: linear-gradient(to bottom, white, #f2ffed, #c0ec83);
+    background-image: linear-gradient(to bottom, #fbf9e5, #f2ffed, #c0ec83);
     font-size: 4rem;
     display: flex;
     margin: auto;

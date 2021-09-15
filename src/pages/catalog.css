@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+.catalog-bg {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bgd1 {
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align:center ;
+}
+
+.bgd1h {
+    margin-top: 30px;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 550px){
+    .bgd1 {
+        margin-top: 150px;
+        width: 250px;
+        transition: all 0.5s ease;
+    }
+
+    .bgd1h {
+        font-size: 2rem;
+    }
+}
