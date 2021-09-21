@@ -17,7 +17,7 @@ function Catalog() {
 
     console.log(pList.prodData)
 
-    const productList = pList.map((prod) => <Product key={prod._id} name={prod.prod_name} price={prod.prod_price} desc={prod.prod_desc} img={prod.img} />)
+    const productList = prodList.map((prod) => <Product key={prod._id} name={prod.prod_name} price={prod.prod_price} desc={prod.prod_desc} img={prod.img} />)
 
     return (
         <div className="catalog-bg">

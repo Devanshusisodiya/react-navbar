@@ -21,13 +21,13 @@ function Navbar() {
                     <h1 className="logo">Organic Era</h1>
                     <ul className={clicked ? "list-items active" : "list-items"}>
                         <li className="item">
-                            <Link style={{ textDecoration: 'none' }} to="/">Home</Link>
+                            <Link id="istyle" style={{ textDecoration: 'none' }} to="/">Home</Link>
                         </li>
                         <li className="item">
-                            <Link style={{ textDecoration: 'none' }} to="/catalog">Catalog</Link>
+                            <Link id="istyle" style={{ textDecoration: 'none' }} to="/catalog">Catalog</Link>
                         </li>
                         <li className="item">
-                            <Link style={{ textDecoration: 'none' }} to="/contact">Contact</Link>
+                            <Link id="istyle" style={{ textDecoration: 'none' }} to="/contact">Contact</Link>
                         </li>
                     </ul>
                     <div className={clicked ? "back" : "menu"} onClick={onClicked}>{clicked ? "back" : "menu"}</div>

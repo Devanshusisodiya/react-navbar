@@ -34,8 +34,11 @@
 .item {
     padding: 20px;
     margin-right: 50px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+
+#istyle {
+    color: black;
 }
 
 .item:hover {
